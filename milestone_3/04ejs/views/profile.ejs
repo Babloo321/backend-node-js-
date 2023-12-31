@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(69, 66, 66);
+        }
+        div{
+            height: 100vh;
+            color: white;
+            /* padding: 12rem; */
+            border: 3px solid red;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <%- include('common/header'); %>
+    <div>
+    <h1>Welcome: <%= user.name %></h1>
+    <h2>Email: <%= user.email%></h2>
+    <h3>Phone: <%= user.phone%></h3>
+    <ul>
+        <h2>Skills:</h2>
+        <!-- <% user.skills.forEach((item) => {%>
+            <li><%= item%></li>
+        <% })%> -->
+
+        <% user.skills.forEach((item) => {%>
+            <li><%= item %></li>
+       <% })%>
+    </ul>
+    </div>
+
+</body>
+</html>

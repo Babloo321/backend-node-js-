@@ -1,0 +1,14 @@
+{
+  "name": "deletefromdb",
+  "version": "1.0.0",
+  "description": "delete data from database using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "babloo",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+}

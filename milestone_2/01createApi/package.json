@@ -1,0 +1,14 @@
+{
+  "name": "usingapi",
+  "version": "1.0.0",
+  "description": "learn about creating api",
+  "main": "index.js",
+  "scripts": {
+    "test": "this is api handler"
+  },
+  "author": "babloo",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
